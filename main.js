@@ -63,7 +63,7 @@ window.addEventListener('scroll', function () {
       slideConts[i].classList.add('show');
     } else {
       // 逆に.showを削除
-      // slideConts[i].classList.remove('show');
+      slideConts[i].classList.remove('show');
     }
   }
 });
